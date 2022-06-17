@@ -98,8 +98,10 @@ source /etc/profile.d/rvm.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias upd="sudo apt update"
+alias upg="sudo apt upgrade"
+alias ls="exa"
+alias cz="chezmoi"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
